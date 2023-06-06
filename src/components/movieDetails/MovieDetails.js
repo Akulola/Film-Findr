@@ -38,7 +38,8 @@ function MovieDetail() {
     <div>
       <h2>{movie.title}</h2>
       <img src={movie.image} alt={movie.title} />
-      
+      <p>Genre: {movie.genre}</p>
+      <p>Release Date: {movie.releaseDate}</p>
     </div>
   );
 }
