@@ -26,7 +26,11 @@ function MovieDetail() {
     }, [id]);
 
     if (loading) {
-        return <div>Loading...</div>
+        return <div>Loading...</div>;
+    }
+
+    if (!movie) {
+        return <div>Film not found.</div>;
     }
 
 
