@@ -40,6 +40,7 @@ function MovieDetail() {
       <img src={movie.image} alt={movie.title} />
       <p>Genre: {movie.genre}</p>
       <p>Release Date: {movie.releaseDate}</p>
+      <p>synopsis:</p>
       <h3>User Reviews</h3>
       <ul>
         {movie.reviews.map((review, index) => (
