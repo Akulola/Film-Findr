@@ -40,8 +40,17 @@ function MovieDetail() {
       <img src={movie.image} alt={movie.title} />
       <p>Genre: {movie.genre}</p>
       <p>Release Date: {movie.releaseDate}</p>
+      <h3>User Reviews</h3>
+      <ul>
+        {movie.reviews.map((review, index) => (
+            <li key={index}>
+                <p>Rating: {review.rating}</p>
+                <p>Comment: {review.comment}</p>
+            </li>
+        ))}
+      </ul>
     </div>
   );
-}
+};
 
 export default MovieDetail;
