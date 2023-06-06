@@ -20,7 +20,6 @@ const  MovieList = () => {
                     alt={movie.title}
                     />
                     <p>Rating: {movie.vote_average} </p>
-                    <p>{movie.overview}</p>
                     </div>
             ))}
         </div>
