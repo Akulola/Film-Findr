@@ -25,7 +25,9 @@ function MovieDetail() {
         fetchMovieDetail();
     }, [id]);
 
-    if ()
+    if (loading) {
+        return <div>Loading...</div>
+    }
 
 
   return (
