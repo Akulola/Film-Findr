@@ -24,6 +24,20 @@
   color: white;
 }
 
+.Footer-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+
+.heart {
+  color: red;
+  font-size: 16px; 
+}
+
+
 .App-link {
   color: #61dafb;
 }
