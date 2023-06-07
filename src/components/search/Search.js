@@ -13,3 +13,5 @@ function MovieSearch() {
         // Redirect to movie list view passing the search query as a parameter
            navigate(`/movie?search=${searchQuery}`);
       } else {
+         console.error('Error occurred while fetching movies');
+      }
