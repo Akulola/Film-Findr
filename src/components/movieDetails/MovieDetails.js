@@ -43,6 +43,7 @@ function MovieDetail() {
       <p>Rating: {movie.vote_average}</p>
       <p>Synopsis: {movie.overview}</p>
       <p>Cast: {movie.credits.cast.map(actor => actor.name).join(', ')}</p>
+      <p>Release Date: {movie.release_date}</p>
       <h3>User Reviews</h3>
       <ul>
         {movie.reviews.map((review, index) => (
