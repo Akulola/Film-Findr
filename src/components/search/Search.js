@@ -15,3 +15,7 @@ function MovieSearch() {
       } else {
          console.error('Error occurred while fetching movies');
       }
+       } catch (error) {
+      console.error('Error occurred while fetching movies', error);
+    }
+  };
