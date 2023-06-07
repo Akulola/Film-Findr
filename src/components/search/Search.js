@@ -21,9 +21,13 @@ function MovieSearch() {
   };
 return (
     <div>
-<form onSubmit={handleSearch}>
+      <form onSubmit={handleSearch}>
         <input
           type="text"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          placeholder="Search movies by title or genre"
+        />
 
 
 
