@@ -47,11 +47,11 @@ function MovieDetail() {
       <p>Duration: {movie.runtime} minutes</p>
       <h3>User Reviews</h3>
       <ul>
-        {movie.reviews.map((review, index) => (
-            <li key={index}>
-                <p>Rating: {review.rating}</p>
-                <p>Comment: {review.comment}</p>
-            </li>
+      {movie.reviews.results.map(review => (
+        <li key={review.id}>
+            <p>Rating: {review.author}</p>
+            <p>Comment: {review.content}</p>
+        </li>
         ))}
       </ul>
     </div>
