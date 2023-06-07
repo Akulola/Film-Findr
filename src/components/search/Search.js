@@ -19,3 +19,4 @@ function MovieSearch() {
       console.error('Error occurred while fetching movies', error);
     }
   };
+return (
