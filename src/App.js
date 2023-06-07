@@ -8,6 +8,12 @@ import MovieList from './components/movieList'
 function App() {
   return (
     <BrowserRouter>
+    <header>
+      <nav>
+        <h1>Film Findr</h1>
+        <Link to=""/>
+      </nav>
+    </header>
     <main>
       <Routes>
         <Route path="/" element={MovieList} /> //should link to 'home' component
