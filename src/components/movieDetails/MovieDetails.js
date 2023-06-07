@@ -42,6 +42,7 @@ function MovieDetail() {
       <p>Genre: {movie.genres.map(genre => genre.name).join(', ')}</p>
       <p>Rating: {movie.vote_average}</p>
       <p>Synopsis: {movie.overview}</p>
+      <p>Cast: {movie.credits.cast.map(actor => actor.name).join(', ')}</p>
       <h3>User Reviews</h3>
       <ul>
         {movie.reviews.map((review, index) => (
