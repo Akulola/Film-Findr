@@ -20,3 +20,11 @@ function MovieSearch() {
     }
   };
 return (
+    <div>
+<form onSubmit={handleSearch}>
+        <input
+          type="text"
+
+
+
+    </div>
