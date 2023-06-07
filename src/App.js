@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
     <main>
       <Routes>
-        <Route path="" element={} />
+        <Route path="/" element={} /> //should link to 'home' component
         <Route path="" element={} />
       </Routes>
     </main>
