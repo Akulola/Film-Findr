@@ -1,5 +1,6 @@
 import React from "react"; //note 
 import { BrowserRouter , Routes, Route } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Outlet, Link } from "react-router-dom";
 import './App.css';
 import MovieList from './components/movieList'
