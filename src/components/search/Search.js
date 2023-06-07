@@ -11,3 +11,5 @@ function MovieSearch() {
          const data = await response.json();
         // Process the API response data as needed
         // Redirect to movie list view passing the search query as a parameter
+           navigate(`/movie?search=${searchQuery}`);
+      } else {
