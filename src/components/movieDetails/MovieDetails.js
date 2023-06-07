@@ -13,7 +13,7 @@ function MovieDetail() {
         const fetchMovieDetail = async () => {
             try {
                 const apikey = '2801d62ffaec700bd700b8cdb258437b'; // API key
-                const response = await fetch(`https://api.themoviedb.org/3/movie/157336?api_key=2801d62ffaec700bd700b8cdb258437b&append_to_response=videos,images${id}`);
+                const response = await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}`);
                 const data = await response.json();
                 setMovie(data);
                 setLoading(false);
