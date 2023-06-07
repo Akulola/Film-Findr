@@ -28,7 +28,11 @@ return (
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="Search movies by title or genre"
         />
-
+       <button type="submit">Search</button>
+      </form>
+    </div>
+  );
+}
 
 
     </div>
