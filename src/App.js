@@ -6,3 +6,6 @@ import MovieSearch from './components/MovieSearch';
 function Home() {
   return <h1>Home</h1>;
 }
+function About() {
+  return <h1>About</h1>;
+}
