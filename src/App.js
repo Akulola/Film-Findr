@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import MovieSearch from './components/MovieSearch';
+import MovieSearch from './components/Search';
 function Home() {
   return <h1>Home</h1>;
 }
