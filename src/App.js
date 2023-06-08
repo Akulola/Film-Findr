@@ -5,6 +5,7 @@ import {  Link } from "react-router-dom";
 import './App.css';
 import MovieList from './components/movieList'
 import MovieDetail from './components/movieDetails'
+import MovieSearch from './components/search'
 
 function App() {
   return (
@@ -15,10 +16,12 @@ function App() {
         <Link to=""/>
       </nav>
     </header>
-    <main>
+    <main >
       <Routes>
         <Route path="/" element={MovieList} />  
         <Route path="/movies/:id" element={MovieDetail} />
+        <Route path="/movies/:id" element={MovieSearch} />
+
       </Routes>
     </main>
     </BrowserRouter>
