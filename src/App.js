@@ -1,38 +1,30 @@
-// // App.js
-// import React from 'react';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import Header from './components/header';
-// import MovieSearch from './components/Search';
-// function Home() {
-//   return <h1>Home</h1>;
-// }
-// function About() {
-//   return <h1>About</h1>;
-// }
-// function App() {
-//   return (
-//     <Router>
-//        <Routes>
-//         <Route path="/home" element={<Home />} />
-//         <Route path="/about" element={<About />} />
-//       </Routes>
-//     </Router>
-//   );
-// }
-
-// export default App;
-
-import React from 'react';
-import Search from './Search';
+import React from "react"; //note 
+import { BrowserRouter , Routes, Route } from "react-router-dom";
+// import { NavLink, Outlet, } from "react-router-dom";
+import {  Link } from "react-router-dom";
+import './App.css';
+import MovieList from './components/movieList'
+import MovieDetail from './components/movieDetails'
 
 function App() {
   return (
-    <div>
-      <h1>Movie Search App</h1>
-      <Search />
-    </div>
+    <BrowserRouter>
+    <header>
+      <nav>
+        <h1>Film Findr</h1>
+        <Link to=""/>
+      </nav>
+    </header>
+    <main>
+      <Routes>
+        <Route path="/" element={MovieList} />  
+        <Route path="/movies/:id" element={MovieDetail} />
+      </Routes>
+    </main>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
 
