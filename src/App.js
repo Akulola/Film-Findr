@@ -3,9 +3,9 @@ import { BrowserRouter , Routes, Route } from "react-router-dom";
 // import { NavLink, Outlet, } from "react-router-dom";
 import {  Link } from "react-router-dom";
 import './App.css';
-import MovieList from './components/movieList'
-import MovieDetail from './components/movieDetails'
-import MovieSearch from './components/search'
+import MovieList from './components/movieList/MovieList'
+import MovieDetail from './components/movieDetails/MovieDetails'
+import MovieSearch from './components/search/Search'
 
 function App() {
   return (
