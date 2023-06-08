@@ -377,3 +377,35 @@ button:hover {
 }
 
 /* ...existing code... */
+/* File: App.css */
+
+/* ...existing code... */
+
+/* MovieList styles */
+.movie-list-container {
+  margin-bottom: 20px;
+}
+
+.movie-list {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.movie-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.movie-item {
+  width: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-title {
+  color: #e50914;
+}
