@@ -16,6 +16,9 @@ function App() {
         <Link to=""/>
       </nav>
     </header>
+    <MovieDetail />
+    <MovieSearch />
+    <MovieList />
     <main >
       <Routes>
         <Route path="/" element={MovieList} />  
