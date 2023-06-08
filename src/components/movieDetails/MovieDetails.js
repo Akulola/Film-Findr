@@ -12,7 +12,8 @@ function MovieDetail() {
         //fetch movie detail from API
         const fetchMovieDetail = async () => {
             try {
-                const response = await fetch(`/api/movies/${id}`);
+                const apikey = '2801d62ffaec700bd700b8cdb258437b'; // API key
+                const response = await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=2801d62ffaec700bd700b8cdb258437b`);
                 const data = await response.json();
                 setMovie(data);
                 setLoading(false);
@@ -37,17 +38,20 @@ function MovieDetail() {
   return (
     <div>
       <h2>{movie.title}</h2>
-      <img src={movie.image} alt={movie.title} />
-      <p>Genre: {movie.genre}</p>
-      <p>Release Date: {movie.releaseDate}</p>
-      <p>synopsis:</p>
+      <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} />
+      <p>Genre: {movie.genres.map(genre => genre.name).join(', ')}</p>
+      <p>Rating: {movie.vote_average}</p>
+      <p>Synopsis: {movie.overview}</p>
+      <p>Cast: {movie.credits.cast.map(actor => actor.name).join(', ')}</p>
+      <p>Release Date: {movie.release_date}</p>
+      <p>Duration: {movie.runtime} minutes</p>
       <h3>User Reviews</h3>
       <ul>
-        {movie.reviews.map((review, index) => (
-            <li key={index}>
-                <p>Rating: {review.rating}</p>
-                <p>Comment: {review.comment}</p>
-            </li>
+      {movie.reviews.results.map(review => (
+        <li key={review.id}>
+            <p>Rating: {review.author}</p>
+            <p>Comment: {review.content}</p>
+        </li>
         ))}
       </ul>
     </div>
