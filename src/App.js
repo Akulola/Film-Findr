@@ -12,4 +12,10 @@ function About() {
 function App() {
   return (
     <Router>
-      <Routes></Routes>
+       <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
+  );
+}
