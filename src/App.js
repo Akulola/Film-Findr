@@ -9,3 +9,7 @@ function Home() {
 function About() {
   return <h1>About</h1>;
 }
+function App() {
+  return (
+    <Router>
+      <Routes></Routes>
