@@ -14,20 +14,22 @@ const  MovieList = () => {
     return (
         <div className='movie-list-container'>
             <h2 className="movie-list" > Movie List</h2>
-            {movies.map((movie) => (
-                <Link to={`/movies/${movie.id}`} key={movie.id}>
-                    <div>
-                        <h3 className="movie-title" >{movie.title}</h3>
-                        <img 
-                        className='image-poster'
-                        src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-                        alt={movie.title}
-                        />
-                        <p>Rating: {movie.vote_average} </p>
-                        <p>Release Date:</p>
-                    </div>
-                </Link>
-            ))}
+            <div className='movie-grid'>
+                {movies.map((movie) => (
+                    <Link to={`/movies/${movie.id}`} key={movie.id} className='movie-item'>
+                        <div>
+                            <h3 className="movie-title" >{movie.title}</h3>
+                            <img 
+                            className='movie-image'
+                            src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+                            alt={movie.title}
+                            />
+                            <p className='movie-rating'>Rating: {movie.vote_average} </p>
+                            <p>Release Date:</p>
+                        </div>
+                    </Link>
+                ))}
+            </div>
         </div>
     );
 };
