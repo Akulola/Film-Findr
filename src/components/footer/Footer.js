@@ -16,19 +16,19 @@ function Footer() {
                 <nav>
                     <ul className="footer-links">
                         <li>
-                        <button onClick={() => handleLinkClick('Terms of Service')}>
-                            Terms of Service
-                        </button>
+                            <button onClick={() => handleLinkClick('Terms of Service')}>
+                                Terms of Service
+                            </button>
                         </li>
                         <li>
-                        <button onClick={() => handleLinkClick('Privacy Policy')}>
-                            Privacy Policy
-                        </button> 
+                            <button onClick={() => handleLinkClick('Privacy Policy')}>
+                                Privacy Policy
+                            </button> 
                         </li>
                         <li>
-                        <button onClick={() => handleLinkClick('Contact Us')}>
-                            Contact Us
-                        </button>
+                            <button onClick={() => handleLinkClick('Contact Us')}>
+                                Contact Us
+                            </button>
                         </li>
                     </ul>
                 </nav>
