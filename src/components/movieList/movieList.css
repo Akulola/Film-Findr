@@ -38,3 +38,8 @@
     margin-bottom: 10px;
     border-radius: 45px;
   }
+
+  .movie-rating {
+    color: aquamarine;
+    font-size: 16px;
+  }
