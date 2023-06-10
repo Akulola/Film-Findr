@@ -8,10 +8,10 @@ function Header() {
             <div className="logo">
             <Link to="/">Film Findr</Link>
             </div>
-            <nav>
+            <nav className='navbar'>
             <ul className="nav-links">
                 <li>
-                <Link to="/">Home</Link>
+                <Link className='nav-link' to="/">Home</Link>
                 </li>
                 <li>
                 <Link to="/movie">Movie Search</Link> 
