@@ -8,14 +8,18 @@ function Footer() {
     const handleLinkClick = (text) => {
         setInfo(text);
     };
-    
+
     return (
         <footer>
             <div className='footer-content'>
              <p>&copy; 2023 Film Findr. All rights reserved.</p> 
                 <nav>
                     <ul className="footer-links">
-                        <li><a href="/">Terms of Service</a></li>
+                        <li>
+                        <button onClick={() => handleLinkClick('Terms of Service')}>
+                            Terms of Service
+                        </button>
+                        </li>
                         <li><a href="/">Privacy Policy</a></li>
                         <li><a href="/">Contact Us</a></li>
                     </ul>
