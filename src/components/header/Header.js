@@ -5,7 +5,7 @@ function Header() {
     return (
         <header>
             <div className="logo">
-                
+            <Link to="/">Film Findr</Link>
             </div>
         </header>
     )
