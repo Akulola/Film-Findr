@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './footer.css'
 
 
 function Footer() {
+    const [info, setInfo] = useState('');
     return (
         <footer>
             <div className='footer-content'>
