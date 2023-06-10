@@ -12,6 +12,9 @@ function Header() {
                 <li>
                 <Link to="/">Home</Link>
                 </li>
+                <li>
+                <Link to="/movie">Movie Search</Link> 
+                </li>
             </ul>
             </nav>
         </header>
