@@ -12,7 +12,7 @@ const  MovieList = () => {
             .catch((error) => console.log('Error fetching movies', error));
         }, []);
     return (
-        <div>
+        <div className='movie-list-container'>
             <h2 className="movie-list" > Movie List</h2>
             {movies.map((movie) => (
                 <Link to={`/movies/${movie.id}`} key={movie.id}>
