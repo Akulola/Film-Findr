@@ -12,3 +12,8 @@
   .logo {
     width: 100px;
   }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
