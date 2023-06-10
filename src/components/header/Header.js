@@ -6,7 +6,7 @@ function Header() {
     return (
         <header className='header'>
             <div className="logo">
-            <Link to="/">Film Findr</Link>
+            <Link className='app-name' to="/">Film Findr</Link>
             </div>
             <nav className='navbar'>
             <ul className="nav-links">
