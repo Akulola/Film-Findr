@@ -30,6 +30,12 @@ footer {
     margin-left: 10px;
   }
 
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: none;
+  }
+
   .footer-links li a:hover {
     text-decoration: underline;
   }
