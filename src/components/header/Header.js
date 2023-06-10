@@ -4,7 +4,7 @@ import './Header.css'
 
 function Header() {
     return (
-        <header>
+        <header className='header'>
             <div className="logo">
             <Link to="/">Film Findr</Link>
             </div>
