@@ -5,7 +5,10 @@ import './footer.css'
 function Footer() {
     const [info, setInfo] = useState('');
 
-    const handleLinkClick = (text) 
+    const handleLinkClick = (text) => {
+        setInfo(text);
+    };
+    
     return (
         <footer>
             <div className='footer-content'>
