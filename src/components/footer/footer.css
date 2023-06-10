@@ -26,6 +26,10 @@ footer {
     justify-content: flex-end;
   }
 
+  .footer-links li {
+    margin-left: 10px;
+  }
+
   .footer-links li a:hover {
     text-decoration: underline;
   }
