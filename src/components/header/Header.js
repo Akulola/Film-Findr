@@ -14,7 +14,7 @@ function Header() {
                 <Link className='nav-link' to="/">Home</Link>
                 </li>
                 <li>
-                <Link to="/movie">Movie Search</Link> 
+                <Link className='nav-link' to="/movie">Movie Search</Link> 
                 </li>
             </ul>
             </nav>
