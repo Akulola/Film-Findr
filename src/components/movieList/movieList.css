@@ -3,3 +3,9 @@
     margin: 0 auto;
     padding: 20px;
   }
+
+  .movie-list {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
