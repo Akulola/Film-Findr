@@ -22,3 +22,7 @@ footer {
     margin: 0;
     padding: 0;
   }
+
+  .footer-links li a:hover {
+    text-decoration: underline;
+  }
