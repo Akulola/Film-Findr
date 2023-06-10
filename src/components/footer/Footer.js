@@ -4,6 +4,8 @@ import './footer.css'
 
 function Footer() {
     const [info, setInfo] = useState('');
+
+    const handleLinkClick = (text) 
     return (
         <footer>
             <div className='footer-content'>
