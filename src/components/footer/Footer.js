@@ -33,6 +33,7 @@ function Footer() {
                     </ul>
                 </nav>
             </div>
+            {info && <div className="info">{info}</div>}
         </footer>
     );
 }
