@@ -25,7 +25,11 @@ function Footer() {
                             Privacy Policy
                         </button> 
                         </li>
-                        <li><a href="/">Contact Us</a></li>
+                        <li>
+                        <button onClick={() => handleLinkClick('Contact Us')}>
+                            Contact Us
+                        </button>
+                        </li>
                     </ul>
                 </nav>
             </div>
