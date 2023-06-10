@@ -24,3 +24,9 @@
     text-decoration: none;
     color: #fff;
   }
+
+  .movie-title {
+    color: #e50914;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
