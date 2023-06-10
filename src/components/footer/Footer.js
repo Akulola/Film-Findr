@@ -20,7 +20,11 @@ function Footer() {
                             Terms of Service
                         </button>
                         </li>
-                        <li><a href="/">Privacy Policy</a></li>
+                        <li>
+                        <button onClick={() => handleLinkClick('Privacy Policy')}>
+                            Privacy Policy
+                        </button> 
+                        </li>
                         <li><a href="/">Contact Us</a></li>
                     </ul>
                 </nav>
