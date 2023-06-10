@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 import MovieList from './components/movieList/MovieList'
 import MovieDetail from './components/movieDetails/MovieDetails'
 import MovieSearch from './components/search/Search'
@@ -16,8 +16,8 @@ function App() {
       
         <Routes>
           <Route path="/" element={<MovieList />} />
-          <Route path="/movies/:id" element={<MovieDetail />} />
           <Route path="/movie" element={<MovieSearch />} />
+          <Route path="/movies/:id" element={<MovieDetail />} />
         </Routes>
 
       <Footer />
