@@ -25,7 +25,7 @@ const  MovieList = () => {
                             alt={movie.title}
                             />
                             <p className='movie-rating'>Rating: {movie.vote_average} </p>
-                            <p>Release Date:</p>
+                            <p className='movie-release-date'>Release Date:</p>
                         </div>
                     </Link>
                 ))}
