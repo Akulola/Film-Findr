@@ -7,6 +7,9 @@ function Header() {
             <div className="logo">
             <Link to="/">Film Findr</Link>
             </div>
+            <nav>
+            <ul className="nav-links">
+            </nav>
         </header>
     )
 }
