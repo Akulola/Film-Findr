@@ -47,3 +47,14 @@ function MovieSearch() {
                     src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
                     alt={movie.title}
                   />
+
+                  )}
+                  <p>Release Date: {movie.release_date}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    );
+  }
