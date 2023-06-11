@@ -1,7 +1,7 @@
 # FILM FINDR - a movie search website.#
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+powered by React
  
  ## DESCRIPTION ##
  FILM FINDR is a website that provides users with a catalogue of Movies & series to stream online. Upon loading, a user is taken to a homepage where a list of movies available for watching is rendered. The site also has a search bar where one can search for a particular movie and directed to the results of the same, if the movie is available on the server. 
@@ -20,6 +20,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     * Reviews
     * Comments
 
+
+## Usage##
 
 ## CONCLUSION ##
 Finding the perfect movie to watch can be time-consuming and overwhelming process due to the vast number of choices available.The Film Findr app simplifies the movie-watching experience by offering intuitive search and filtering options, allowing users to narrow down their choices based on criteria such as genre, release date and ratings
