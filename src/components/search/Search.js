@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './movieSearch.css';
 
 function MovieSearch() {
     const [searchQuery, setSearchQuery] = useState('');
@@ -25,7 +25,7 @@ function MovieSearch() {
 
             return (
                 <div>
-                  <div className= "search-title">
+                  <div>
                   <form onSubmit={handleSearch}>
                     <input
                       type="text"
@@ -35,7 +35,7 @@ function MovieSearch() {
                     />
                     <button type="submit">Search</button>
                   </form>
-                  <h2>Search Results </h2>
+                  <h2>Search Results</h2>
                   </div>
                   {searchResults.length > 0 && (
          <div className="search-results">
