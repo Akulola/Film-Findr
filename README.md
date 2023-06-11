@@ -57,6 +57,7 @@ This project is licensed under the MIT License.
 
 ## Acknowledgements ##
 1. Create React App - Bootstrapped with Create React App.
+2. Themoviedb API - Movie data and images.
 
 
 ## CONCLUSION ##
