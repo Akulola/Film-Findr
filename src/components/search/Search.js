@@ -15,3 +15,6 @@ function MovieSearch() {
               if (response.ok) {
                 const data = await response.json();
                 setSearchResults(data.results);
+            } else {
+                console.error('Error occurred while fetching movies');
+              }
