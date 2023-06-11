@@ -14,7 +14,7 @@ function Header() {
             <Link to="/" className='app-name'>
           <img src={logoImage} alt="Logo" className="logo-image" />
         </Link>
-              <h1 className="header-title" style={{ fontFamily: "Arial, sans-serif", fontSize: "24px", color: "#333" }}>Film-Findr</h1>
+              <h1 className="header-title" style={{ fontFamily: "Raleway, sans-serif", fontSize: "24px", color: "#333" }}>Film-Findr</h1>
             </div>
             <nav className='navbar'>
             <ul className="nav-links">
