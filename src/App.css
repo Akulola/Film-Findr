@@ -409,3 +409,46 @@ button:hover {
 .movie-title {
   color: #e50914;
 }
+/* footer.css */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 10px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 10px;
+}
+
+.footer-links button {
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.info {
+  text-align: center;
+  margin-top: 10px;
+}
