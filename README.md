@@ -1,4 +1,4 @@
-# FILM FINDR - a movie search website.#
+# FILM FINDR - a movie search website. #
 
 
 powered by React
@@ -21,19 +21,19 @@ powered by React
     * Comments
 
 
-## Usage##
+## Usage ##
 
 1. Clone the repository:
 
-git clone https://github.com/Akulola/Film-Findr
+    git clone https://github.com/Akulola/Film-Findr
 
 2. Install dependencies:
 
-cd film-findr
-npm install
+    cd film-findr
+    npm install
 
 3. Start the development server:
-npm start
+    npm start
 
 4. Open your browser and visit http://localhost:3000 to access the Film Findr website.
 
@@ -47,6 +47,7 @@ npm start
 
 ## Screenshots ##
 
+![Alt text](image-1.png)
 ![Alt text](image.png)
 
 ## Contributing ##
