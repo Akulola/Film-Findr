@@ -32,7 +32,8 @@ git clone https://github.com/your-username/film-findr.git
 cd film-findr
 npm install
 
-
+3. Start the development server:
+npm start
 
 
 ## CONCLUSION ##
