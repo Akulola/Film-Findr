@@ -25,6 +25,7 @@ function MovieSearch() {
 
             return (
                 <div>
+                  <div>
                   <form onSubmit={handleSearch}>
                     <input
                       type="text"
@@ -34,10 +35,10 @@ function MovieSearch() {
                     />
                     <button type="submit">Search</button>
                   </form>
-
+                  <h2>Search Results</h2>
+                  </div>
                   {searchResults.length > 0 && (
-        <div>
-          <h2>Search Results</h2>
+         <div className="search-results">
           <ul>
             {searchResults.map((movie) => (
               <li key={movie.id}>
