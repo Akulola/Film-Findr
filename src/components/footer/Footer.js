@@ -26,29 +26,47 @@ function Footer() {
         <div className="info">
           {info.includes('Contact Us Developers') ? (
             <p>
-              Contact Us Developers: Angela Mvoi: 
-              <a href="https://github.com/Akulola" target="_blank" rel="noopener noreferrer">
-                https://github.com/Akulola
-              </a>
-              , Kenneth Wanguka: 
-              <a href="https://github.com/Ken-Kabutu/" target="_blank" rel="noopener noreferrer">
-                https://github.com/Ken-Kabutu/
-              </a>
-              , Ruth Osukuku: 
-              <a href="https://github.com/RuthOsukuku" target="_blank" rel="noopener noreferrer">
-                https://github.com/RuthOsukuku
-              </a>
-              , Reagan Munene: 
-              <a href="https://github.com/reaganmunene" target="_blank" rel="noopener noreferrer">
-                https://github.com/reaganmunene
-              </a>
-              
-              , Mary Mukami: 
-              <a href="https://github.com/reaganmunene" target="_blank" rel="noopener noreferrer">
-              https://github.com/Camie34
-              </a>
-              
-            </p>
+            Contact Us Developers:{' '}
+            <a
+              href="https://github.com/Akulola"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Angela Kulola
+            </a>
+            {' '}
+            <a
+              href="https://github.com/Ken-Kabutu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Kenneth Wanguka
+            </a>
+            {' '}
+            <a
+              href="https://github.com/RuthOsukuku"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ruth Osukuku
+            </a>
+            {' '}
+            <a
+              href="https://github.com/reaganmunene"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Reagan Munene
+            </a>
+            {' '}
+            <a
+              href="https://github.com/Camie34"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mary Mukami
+            </a>
+          </p>
           ) : (
             info
           )}
