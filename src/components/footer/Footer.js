@@ -1,24 +1,41 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./App.css";
+import React, { useState } from 'react';
+import './footer.css'
 
-const Footer = () => {
-  return (
-    <footer className="Footer-container">
-      <div className="footerLinks">
-        <Link to="/popular-movies" className="footerLink">Popular</Link>
-        <Link to="/top-rated-movies" className="footerLink">Top Rated</Link>
-        <Link to="/upcoming-movies" className="footerLink">Upcoming</Link>
-        <Link to="/about-us" className="footerLink">About Us</Link>
-      </div>
-      <p>© 2023 Film-Findr. All rights reserved.</p>
-      <p>
-        Made with <span className="heart">&hearts;</span> by Angie Kulola
-      </p>
-    </footer>
-  );
-};
+
+function Footer() {
+    const [info, setInfo] = useState('');
+
+    const handleLinkClick = (text) => {
+        setInfo(text);
+    };
+
+    return (
+        <footer>
+            <div className='footer-content'>
+             <p>&copy; 2023 Film Findr. All rights reserved.</p> 
+                <nav>
+                    <ul className="footer-links">
+                        <li>
+                            <button onClick={() => handleLinkClick('Terms of Service')}>
+                                Terms of Service
+                            </button>
+                        </li>
+                        <li>
+                            <button onClick={() => handleLinkClick('Privacy Policy')}>
+                                Privacy Policy
+                            </button> 
+                        </li>
+                        <li>
+                            <button onClick={() => handleLinkClick('Contact Us')}>
+                                Contact Us
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            {info && <div className="info">{info}</div>}
+        </footer>
+    );
+}
 
 export default Footer;
-
-

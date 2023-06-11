@@ -1,4 +1,6 @@
 import React, { useState, useEffect} from 'react';
+import { Link } from 'react-router-dom'
+import './movieList.css'
 
 const  MovieList = () => {
     const [movies, setMovies] = useState([]);
@@ -10,19 +12,24 @@ const  MovieList = () => {
             .catch((error) => console.log('Error fetching movies', error));
         }, []);
     return (
-        <div>
-            <h2> Movie List</h2>
-            {movies.map((movie) => (
-                <div key={movie.id}>
-                    <h3>{movie.title}</h3>
-                    <img 
-                    src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-                    alt={movie.title}
-                    />
-                    <p>Rating: {movie.vote_average} </p>
-                    <p>Release Date:</p>
-                    </div>
-            ))}
+        <div className='movie-list-container'>
+            <h2 className="movie-list" > Movie List</h2>
+            <div className='movie-grid'>
+                {movies.map((movie) => (
+                    <Link to={`/movies/${movie.id}`} key={movie.id} className='movie-item'>
+                        <div>
+                            <h3 className="movie-title" >{movie.title}</h3>
+                            <img 
+                            className='movie-image'
+                            src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+                            alt={movie.title}
+                            />
+                            <p className='movie-rating'>Rating: {movie.vote_average} </p>
+                            <p className='movie-release-date'>Release Date: {movie.release_date}</p>
+                        </div>
+                    </Link>
+                ))}
+            </div>
         </div>
     );
 };
