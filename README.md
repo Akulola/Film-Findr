@@ -29,6 +29,11 @@ git clone https://github.com/your-username/film-findr.git
 
 2. Install dependencies:
 
+cd film-findr
+npm install
+
+
+
 
 ## CONCLUSION ##
 Finding the perfect movie to watch can be time-consuming and overwhelming process due to the vast number of choices available.The Film Findr app simplifies the movie-watching experience by offering intuitive search and filtering options, allowing users to narrow down their choices based on criteria such as genre, release date and ratings
