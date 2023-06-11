@@ -59,6 +59,10 @@ This project is licensed under the MIT License.
 1. Create React App - Bootstrapped with Create React App.
 2. Themoviedb API - Movie data and images.
 
+## Contact ##
+
+For any inquiries or feedback, please contact the development team at  https://github.com/Akulola/Film-Findr
+
 
 ## CONCLUSION ##
 Finding the perfect movie to watch can be time-consuming and overwhelming process due to the vast number of choices available.The Film Findr app simplifies the movie-watching experience by offering intuitive search and filtering options, allowing users to narrow down their choices based on criteria such as genre, release date and ratings
