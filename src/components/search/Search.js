@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './movieSearch.css';
+// import './movieSearch.css';
 
 function MovieSearch() {
     const [searchQuery, setSearchQuery] = useState('');
