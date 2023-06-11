@@ -34,3 +34,16 @@ function MovieSearch() {
                     />
                     <button type="submit">Search</button>
                   </form>
+
+                  {searchResults.length > 0 && (
+        <div>
+          <h2>Search Results</h2>
+          <ul>
+            {searchResults.map((movie) => (
+              <li key={movie.id}>
+                <h3>{movie.title}</h3>
+                {movie.poster_path && (
+                  <img
+                    src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+                    alt={movie.title}
+                  />
