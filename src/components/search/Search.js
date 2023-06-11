@@ -12,3 +12,6 @@ function MovieSearch() {
             const response = await fetch(
                 `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${searchQuery}`
               );
+              if (response.ok) {
+                const data = await response.json();
+                setSearchResults(data.results);
