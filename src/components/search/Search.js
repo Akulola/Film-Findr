@@ -22,3 +22,15 @@ function MovieSearch() {
                 console.error('Error occurred while fetching movies', error);
               }
             };
+
+            return (
+                <div>
+                  <form onSubmit={handleSearch}>
+                    <input
+                      type="text"
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      placeholder="Search movies..."
+                    />
+                    <button type="submit">Search</button>
+                  </form>
