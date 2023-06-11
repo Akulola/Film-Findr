@@ -1,0 +1,36 @@
+.login {
+    text-align: center;
+    color: white;
+  }
+  
+  .profile-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .profile-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+  }
+  
+  .avatar {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .avatar:hover {
+    cursor: pointer;
+  }
+  
+  .profile-link span {
+    margin-top: 5px;
+  }
+  
