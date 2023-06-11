@@ -42,7 +42,7 @@ npm start
 
 1. React: A JavaScript library for building user interfaces.
 2. React-Router: A collection of navigational components that route in React applications.
-3. 
+3. HTML5 & CSS3: Markup and styling for the website.
 
 
 ## CONCLUSION ##
