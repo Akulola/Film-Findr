@@ -49,6 +49,9 @@ npm start
 
 ![Alt text](image.png)
 
+## Contributing ##
+We welcome contributions from everyone! If you encounter any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+
 ## License ##
 This project is licensed under the MIT License.
 
