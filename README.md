@@ -40,6 +40,10 @@ npm start
 
 ## Technologies Used ##
 
+1. React: A JavaScript library for building user interfaces.
+2. React-Router: A collection of navigational components that route in React applications.
+3. 
+
 
 ## CONCLUSION ##
 Finding the perfect movie to watch can be time-consuming and overwhelming process due to the vast number of choices available.The Film Findr app simplifies the movie-watching experience by offering intuitive search and filtering options, allowing users to narrow down their choices based on criteria such as genre, release date and ratings
