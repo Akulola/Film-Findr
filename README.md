@@ -50,7 +50,7 @@ npm start
 ![Alt text](image.png)
 
 ## License ##
-
+This project is licensed under the MIT License.
 
 
 ## CONCLUSION ##
