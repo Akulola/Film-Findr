@@ -9,3 +9,6 @@ function MovieSearch() {
     const handleSearch = async (e) => {
         e.preventDefault();
         try {
+            const response = await fetch(
+                `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${searchQuery}`
+              );
