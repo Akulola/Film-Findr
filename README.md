@@ -35,7 +35,7 @@ powered by React
 3. Start the development server:
     npm start
 
-4. Open your browser and visit http://localhost:3000 to access the Film Findr website.
+4. Open your browser and visit https://grp7-film-findr.netlify.app/ to access the Film Findr website.
 
 
 ## Technologies Used ##
